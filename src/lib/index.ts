@@ -1,1 +1,3 @@
-// Reexport your entry components here
+import Icon from './svelte/Icon.svelte';
+
+export { Icon };
