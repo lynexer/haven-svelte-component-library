@@ -12,7 +12,10 @@
         "name": "Kyle Graham",
         "url": "https://github.com/lynexer"
     },
-    "repository": "github:lynexer/haven-svelte-component-library",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lynexer/haven-svelte-component-library.git"
+    },
     "sideEffects": false,
     "scripts": {
         "dev": "vite dev",
