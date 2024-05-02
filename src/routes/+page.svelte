@@ -1,8 +1,7 @@
-<h1>Welcome to your library project</h1>
-<p>
-    Create your package using @sveltejs/package and preview/showcase your work
-    with SvelteKit
-</p>
-<p>
-    Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-</p>
+<script>
+    import Ipad from '$lib/svelte/devices/Ipad.svelte';
+</script>
+
+<Ipad landscape size="xl" colour="silver" year="2018">
+    <div class="text-white bg-red-300 h-full">Test stuff</div>
+</Ipad>
