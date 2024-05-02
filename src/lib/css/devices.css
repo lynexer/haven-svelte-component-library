@@ -1,0 +1,28 @@
+/*! Devices.css v0.2.0 | MIT License | github.com/picturepan2/devices.css */
+.device,
+.device::before,
+.device::after,
+.device *,
+.device *::before,
+.device *::after {
+    box-sizing: border-box;
+    display: block;
+}
+
+.device {
+    position: relative;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.device .device-frame {
+    z-index: 1;
+}
+
+.device .device-screen {
+    background-color: #000;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+}
