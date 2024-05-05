@@ -1,6 +1,6 @@
 {
     "name": "@lynexer/haven-components",
-    "version": "0.1.4",
+    "version": "0.2.0",
     "description": "A reusable Svelte component library built for the Project Haven FiveM server NUI",
     "keywords": [
         "Svelte",
