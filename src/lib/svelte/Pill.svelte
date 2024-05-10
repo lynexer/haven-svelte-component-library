@@ -2,8 +2,11 @@
     import type { PillColour, PillSize } from '$lib/types/pill.js';
     import { match } from 'ts-pattern';
 
+    let className: string = '';
+
     export let colour: PillColour = 'grey';
     export let size: PillSize = 'base';
+    export { className as class };
 
     let getCssColours = (): string => {
         return match(colour)
@@ -30,7 +33,7 @@
 </script>
 
 <div
-    class="relative grid select-none items-center whitespace-nowrap rounded-full font-sans text-xs font-bold uppercase text-white {getCssPadding()} {getCssColours()}"
+    class="relative grid select-none items-center whitespace-nowrap rounded-full text-xs font-bold uppercase text-white {className} {getCssPadding()} {getCssColours()}"
 >
     <span>
         <slot />
