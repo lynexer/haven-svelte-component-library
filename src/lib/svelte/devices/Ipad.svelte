@@ -1,6 +1,10 @@
 <script lang="ts">
     import { transformDeviceSize } from '$lib/modules/device.js';
-    import type { DeviceSize, IpadColour, IpadYear } from '$lib/types/device.js';
+    import type {
+        DeviceSize,
+        IpadColour,
+        IpadYear
+    } from '$lib/types/device.js';
 
     export let year: IpadYear = '2018';
     export let size: DeviceSize = 'base';
