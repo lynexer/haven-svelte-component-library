@@ -1,9 +1,10 @@
 <script lang="ts">
     import type { IconProp } from '$lib/types/icon.js';
 
-    let iconResult = '';
-    let classList = '';
-    export { classList as class };
+    let iconResult: string = '';
+    let classList: string = '';
+    let styleList: string = '';
+    export { classList as class, styleList as style };
     export let icon: IconProp;
 
     const parseIcon = () => {
@@ -31,4 +32,4 @@
     iconResult = normalize(parseIcon());
 </script>
 
-<i class="{iconResult} {classList}"></i>
+<i class="{iconResult} {classList}" style={styleList}></i>
