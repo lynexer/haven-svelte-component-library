@@ -10,3 +10,5 @@ export type BadgeColour =
     | 'warning'
     | 'primary'
     | 'secondary';
+
+export type BadgeSize = 'sm' | 'base' | 'lg';
