@@ -42,7 +42,7 @@
             .with('sm', () => 'px-1.5 py-0.5 text-[0.7rem]')
             .with('lg', () => 'px-2.5 py-0.5 text-base')
             .otherwise(() => 'px-2 py-0.5 text-sm');
-    }
+    };
 </script>
 
 <span

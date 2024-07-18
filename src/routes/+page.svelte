@@ -1,6 +1,6 @@
 <script>
     import BadgeComponent from '$lib/svelte/BadgeComponent.svelte';
-import Input from '$lib/svelte/Input.svelte';
+    import Input from '$lib/svelte/Input.svelte';
     import Pill from '$lib/svelte/Pill.svelte';
     import PixelXl from '$lib/svelte/devices/PixelXl.svelte';
 </script>
